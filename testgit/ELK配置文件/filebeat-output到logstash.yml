@@ -1,0 +1,43 @@
+filebeat.prospectors:
+- type: log
+  enabled: true
+  paths:
+    - /home/manager/logs/*.log
+    - /home/manager/test/*.inf
+  fields:
+     logSource: client
+  fields_under_root: true
+
+- type: log
+  paths:
+    - /opt/apache-tomcat-8.5.24/webapps/cis/logs/info.log
+    - /opt/apache-tomcat-8.5.24/webapps/cis/logs/error.log
+    - /home/manager/svr.log
+  fields:
+    logSource: server
+  fields_under_root: true
+
+  multiline:
+    pattern: '^\d{4}\-\d{2}\-\d{2}'
+    negate: true
+    match: after
+    max_lines: 20
+    timeout: 5s
+  tail_files: false
+
+
+filebeat.config.modules:
+  path: ${path.config}/modules.d/*.yml
+  reload.enabled: false
+
+setup.template.settings:
+  index.number_of_shards: 3
+
+#setup.kibana:
+  #host: "192.168.200.154:5601"
+
+output.logstash:
+  hosts: ["192.168.200.154:5044"]
+
+#output.elasticsearch:
+  #hosts: ["192.168.200.154:9200"]

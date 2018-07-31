@@ -1,0 +1,780 @@
+[
+  {
+    "_id": "CPU-slash-Memory-per-container",
+    "_type": "dashboard",
+    "_source": {
+      "description": "",
+      "hits": 0,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"default_field\":\"*\",\"query\":\"*\"}}}}"
+      },
+      "optionsJSON": "{\"darkTheme\":false}",
+      "panelsJSON": "[{\"col\":1,\"id\":\"Container-CPU-usage\",\"panelIndex\":2,\"row\":2,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"System-Navigation\",\"panelIndex\":3,\"row\":1,\"size_x\":12,\"size_y\":1,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Container-Memory-stats\",\"panelIndex\":4,\"row\":5,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Container-Block-IO\",\"panelIndex\":5,\"row\":8,\"size_x\":12,\"size_y\":4,\"type\":\"visualization\"}]",
+      "timeRestore": false,
+      "title": "[Metricbeat System] Containers overview",
+      "uiStateJSON": "{\"P-2\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-4\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-5\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}}",
+      "version": 1
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "d9eba730-c991-11e7-9835-2f31fe08873b",
+    "_type": "dashboard",
+    "_source": {
+      "description": "Overview of the Windows Service States",
+      "hits": 0,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      },
+      "optionsJSON": "{\"darkTheme\":false}",
+      "panelsJSON": "[{\"col\":4,\"id\":\"eb8277d0-c98c-11e7-9835-2f31fe08873b\",\"panelIndex\":1,\"row\":4,\"size_x\":9,\"size_y\":5,\"type\":\"visualization\"},{\"col\":1,\"id\":\"23a5fff0-c98e-11e7-9835-2f31fe08873b\",\"panelIndex\":2,\"row\":4,\"size_x\":3,\"size_y\":5,\"type\":\"visualization\"},{\"col\":1,\"id\":\"830c45f0-c991-11e7-9835-2f31fe08873b\",\"panelIndex\":3,\"row\":1,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"size_x\":4,\"size_y\":3,\"panelIndex\":4,\"type\":\"visualization\",\"id\":\"35f5ad60-c996-11e7-9835-2f31fe08873b\",\"col\":5,\"row\":1},{\"size_x\":4,\"size_y\":3,\"panelIndex\":5,\"type\":\"visualization\",\"id\":\"c36b2ba0-ca29-11e7-9835-2f31fe08873b\",\"col\":9,\"row\":1}]",
+      "timeRestore": false,
+      "title": "[Metricbeat Windows] Services",
+      "uiStateJSON": "{\"P-1\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-2\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-4\":{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}},\"P-5\":{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}}}",
+      "version": 1
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "39efaad0-0701-11e8-a3c5-45d92112cfc5",
+    "_type": "dashboard",
+    "_source": {
+      "title": "我的日志统计",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"1\",\"gridData\":{\"x\":6,\"y\":0,\"w\":6,\"h\":3,\"i\":\"1\"},\"version\":\"6.1.2\",\"type\":\"visualization\",\"id\":\"9b1fb120-0700-11e8-a3c5-45d92112cfc5\"},{\"panelIndex\":\"2\",\"gridData\":{\"x\":0,\"y\":0,\"w\":6,\"h\":3,\"i\":\"2\"},\"version\":\"6.1.2\",\"type\":\"visualization\",\"id\":\"0986cb20-0671-11e8-a3c5-45d92112cfc5\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":3,\"w\":6,\"h\":3,\"i\":\"3\"},\"version\":\"6.1.2\",\"type\":\"visualization\",\"id\":\"b92d8610-06f6-11e8-a3c5-45d92112cfc5\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":6,\"y\":3,\"w\":6,\"h\":3,\"i\":\"4\"},\"version\":\"6.1.2\",\"type\":\"visualization\",\"id\":\"e04b7250-0702-11e8-a3c5-45d92112cfc5\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"useMargins\":true,\"hidePanelTitles\":false}",
+      "uiStateJSON": "{}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "79ffd6e0-faa0-11e6-947f-177f697178b8",
+    "_type": "dashboard",
+    "_source": {
+      "title": "[资源系统] 主机视图",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"1\",\"gridData\":{\"x\":0,\"y\":11,\"w\":6,\"h\":3,\"i\":\"1\"},\"id\":\"6b7b9a40-faa1-11e6-86b1-cd7735ff7e23\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"2\",\"gridData\":{\"x\":6,\"y\":5,\"w\":6,\"h\":3,\"i\":\"2\"},\"id\":\"4d546850-1b15-11e7-b09e-037021c4f8df\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":6,\"y\":11,\"w\":6,\"h\":3,\"i\":\"3\"},\"id\":\"089b85d0-1b16-11e7-b09e-037021c4f8df\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":0,\"y\":8,\"w\":6,\"h\":3,\"i\":\"4\"},\"id\":\"bfa5e400-1b16-11e7-b09e-037021c4f8df\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":6,\"y\":14,\"w\":6,\"h\":3,\"i\":\"5\"},\"id\":\"e0f001c0-1b18-11e7-b09e-037021c4f8df\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"6\",\"gridData\":{\"x\":0,\"y\":14,\"w\":6,\"h\":3,\"i\":\"6\"},\"id\":\"2e224660-1b19-11e7-b09e-037021c4f8df\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"7\",\"gridData\":{\"x\":0,\"y\":5,\"w\":6,\"h\":3,\"i\":\"7\"},\"id\":\"ab2d1e90-1b1a-11e7-b09e-037021c4f8df\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"8\",\"gridData\":{\"x\":6,\"y\":8,\"w\":6,\"h\":3,\"i\":\"8\"},\"id\":\"4e4bb1e0-1b1b-11e7-b09e-037021c4f8df\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"9\",\"gridData\":{\"x\":4,\"y\":1,\"w\":2,\"h\":2,\"i\":\"9\"},\"id\":\"26732e20-1b91-11e7-bec4-a5e9ec5cab8b\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"10\",\"gridData\":{\"x\":0,\"y\":1,\"w\":2,\"h\":2,\"i\":\"10\"},\"id\":\"83e12df0-1b91-11e7-bec4-a5e9ec5cab8b\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"11\",\"gridData\":{\"x\":2,\"y\":1,\"w\":2,\"h\":2,\"i\":\"11\"},\"id\":\"d3166e80-1b91-11e7-bec4-a5e9ec5cab8b\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"12\",\"gridData\":{\"x\":6,\"y\":1,\"w\":2,\"h\":2,\"i\":\"12\"},\"id\":\"522ee670-1b92-11e7-bec4-a5e9ec5cab8b\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"13\",\"gridData\":{\"x\":8,\"y\":1,\"w\":2,\"h\":2,\"i\":\"13\"},\"id\":\"1aae9140-1b93-11e7-8ada-3df93aab833e\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"14\",\"gridData\":{\"x\":8,\"y\":3,\"w\":4,\"h\":2,\"i\":\"14\"},\"id\":\"34f97ee0-1b96-11e7-8ada-3df93aab833e\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"16\",\"gridData\":{\"x\":0,\"y\":0,\"w\":6,\"h\":1,\"i\":\"16\"},\"id\":\"System-Navigation\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"21\",\"gridData\":{\"x\":0,\"y\":3,\"w\":2,\"h\":2,\"i\":\"21\"},\"id\":\"19e123b0-4d5a-11e7-aee5-fdc812cc3bec\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"22\",\"gridData\":{\"x\":2,\"y\":3,\"w\":2,\"h\":2,\"i\":\"22\"},\"id\":\"d2e80340-4d5c-11e7-aa29-87a97a796de6\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"23\",\"gridData\":{\"x\":6,\"y\":3,\"w\":2,\"h\":2,\"i\":\"23\"},\"id\":\"825fdb80-4d1d-11e7-b5f2-2b7c1895bf32\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"25\",\"gridData\":{\"x\":10,\"y\":1,\"w\":2,\"h\":2,\"i\":\"25\"},\"id\":\"96976150-4d5d-11e7-aa29-87a97a796de6\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"27\",\"gridData\":{\"x\":0,\"y\":17,\"w\":6,\"h\":3,\"i\":\"27\"},\"id\":\"99381c80-4d60-11e7-9a4c-ed99bbcaa42b\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"28\",\"gridData\":{\"x\":6,\"y\":17,\"w\":6,\"h\":3,\"i\":\"28\"},\"id\":\"c5e3cf90-4d60-11e7-9a4c-ed99bbcaa42b\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"29\",\"gridData\":{\"x\":4,\"y\":3,\"w\":2,\"h\":2,\"i\":\"29\"},\"id\":\"590a60f0-5d87-11e7-8884-1bb4c3b890e4\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"30\",\"gridData\":{\"x\":6,\"y\":0,\"w\":6,\"h\":1,\"i\":\"30\"},\"id\":\"3d65d450-a9c3-11e7-af20-67db8aecb295\",\"type\":\"visualization\",\"version\":\"6.1.2\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"useMargins\":false}",
+      "uiStateJSON": "{\"P-29\":{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"beat.name:\\\"bogon\\\"\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "Metricbeat-system-overview",
+    "_type": "dashboard",
+    "_source": {
+      "title": "[资源系统] 系统视图",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"9\",\"gridData\":{\"x\":0,\"y\":0,\"w\":12,\"h\":1,\"i\":\"9\"},\"id\":\"System-Navigation\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"11\",\"gridData\":{\"x\":0,\"y\":1,\"w\":2,\"h\":2,\"i\":\"11\"},\"id\":\"c6f2ffd0-4d17-11e7-a196-69b9a7a020a9\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"12\",\"gridData\":{\"x\":6,\"y\":3,\"w\":6,\"h\":5,\"i\":\"12\"},\"id\":\"fe064790-1b1f-11e7-bec4-a5e9ec5cab8b\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"13\",\"gridData\":{\"x\":0,\"y\":3,\"w\":6,\"h\":5,\"i\":\"13\"},\"id\":\"855899e0-1b1c-11e7-b09e-037021c4f8df\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"14\",\"gridData\":{\"x\":0,\"y\":8,\"w\":12,\"h\":6,\"i\":\"14\"},\"id\":\"7cdb1330-4d1a-11e7-a196-69b9a7a020a9\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"16\",\"gridData\":{\"x\":8,\"y\":1,\"w\":2,\"h\":2,\"i\":\"16\"},\"id\":\"522ee670-1b92-11e7-bec4-a5e9ec5cab8b\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"17\",\"gridData\":{\"x\":10,\"y\":1,\"w\":2,\"h\":2,\"i\":\"17\"},\"id\":\"1aae9140-1b93-11e7-8ada-3df93aab833e\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"18\",\"gridData\":{\"x\":6,\"y\":1,\"w\":2,\"h\":2,\"i\":\"18\"},\"id\":\"825fdb80-4d1d-11e7-b5f2-2b7c1895bf32\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"19\",\"gridData\":{\"x\":4,\"y\":1,\"w\":2,\"h\":2,\"i\":\"19\"},\"id\":\"d3166e80-1b91-11e7-bec4-a5e9ec5cab8b\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"20\",\"gridData\":{\"x\":2,\"y\":1,\"w\":2,\"h\":2,\"i\":\"20\"},\"id\":\"83e12df0-1b91-11e7-bec4-a5e9ec5cab8b\",\"type\":\"visualization\",\"version\":\"6.1.2\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"useMargins\":false}",
+      "uiStateJSON": "{\"P-11\":{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}},\"P-12\":{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}},\"P-14\":{\"vis\":{\"defaultColors\":{\"0% - 0.45%\":\"rgb(247,252,245)\",\"0.45% - 0.9%\":\"rgb(199,233,192)\",\"0.9% - 1.35%\":\"rgb(116,196,118)\",\"1.35% - 1.8%\":\"rgb(35,139,69)\"}}},\"P-16\":{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}},\"P-2\":{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}},\"P-3\":{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"default_field\":\"*\",\"query\":\"*\"}}}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "b6b7ccc0-c98d-11e7-9835-2f31fe08873b",
+    "_type": "search",
+    "_source": {
+      "columns": [
+        "beat.name",
+        "windows.service.display_name",
+        "windows.service.state",
+        "windows.service.start_type",
+        "windows.service.uptime.ms",
+        "windows.service.pid",
+        "windows.service.exit_code"
+      ],
+      "description": "",
+      "hits": 0,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"metricbeat-*\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"negate\":false,\"index\":\"metricbeat-*\",\"type\":\"phrase\",\"key\":\"metricset.module\",\"value\":\"windows\",\"params\":{\"query\":\"windows\",\"type\":\"phrase\"},\"disabled\":false,\"alias\":null},\"query\":{\"match\":{\"metricset.module\":{\"query\":\"windows\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"negate\":false,\"index\":\"metricbeat-*\",\"type\":\"phrase\",\"key\":\"metricset.name\",\"value\":\"service\",\"params\":{\"query\":\"service\",\"type\":\"phrase\"},\"disabled\":false,\"alias\":null},\"query\":{\"match\":{\"metricset.name\":{\"query\":\"service\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      },
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "title": "Services [Metricbeat Windows]",
+      "version": 1
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "Container-CPU-usage",
+    "_type": "visualization",
+    "_source": {
+      "description": "",
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"metricbeat-*\",\"query\":{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true,\"default_field\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      },
+      "title": "Container CPU usage [Metricbeat System]",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "version": 1,
+      "visState": "{\"title\":\"Container CPU usage [Metricbeat System]\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"max\",\"schema\":\"metric\",\"params\":{\"field\":\"system.process.cgroup.cpuacct.stats.user.ns\",\"customLabel\":\"CPU user\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"max\",\"schema\":\"metric\",\"params\":{\"field\":\"system.process.cgroup.cpu.cfs.quota.us\",\"customLabel\":\"CPU quota\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"system.process.cgroup.id\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Container ID\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"max\",\"schema\":\"metric\",\"params\":{\"field\":\"system.process.cgroup.cpu.stats.throttled.ns\",\"customLabel\":\"CPU throttling\"}},{\"id\":\"5\",\"enabled\":true,\"type\":\"max\",\"schema\":\"metric\",\"params\":{\"field\":\"system.process.cgroup.cpuacct.stats.system.ns\",\"customLabel\":\"CPU kernel\"}},{\"id\":\"6\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"system.process.name\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Process name\"}}]}"
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "Container-Memory-stats",
+    "_type": "visualization",
+    "_source": {
+      "description": "",
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"metricbeat-*\",\"query\":{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true,\"default_field\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      },
+      "title": "Container Memory stats [Metricbeat System]",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "version": 1,
+      "visState": "{\"title\":\"Container Memory stats [Metricbeat System]\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showMeticsAtAllLevels\":false,\"showPartialRows\":false,\"showTotal\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"13\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"system.process.cgroup.memory.mem.usage.bytes\",\"customLabel\":\"Usage\"}},{\"id\":\"14\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"system.process.cgroup.memory.mem.usage.max.bytes\",\"customLabel\":\"Max usage\"}},{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"system.process.cgroup.memory.stats.page_faults\",\"customLabel\":\"Page faults\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"system.process.cgroup.memory.stats.pages_in\",\"customLabel\":\"Pages in memory\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"system.process.cgroup.memory.stats.pages_out\",\"customLabel\":\"Pages out of memory\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"system.process.cgroup.id\",\"size\":50,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Container ID\"}},{\"id\":\"5\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"system.process.cgroup.memory.stats.inactive_file.bytes\",\"customLabel\":\"Inactive files\"}},{\"id\":\"6\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"system.process.cgroup.memory.stats.major_page_faults\",\"customLabel\":\"# Major page faults\"}},{\"id\":\"8\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"system.process.name\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Process name\"}},{\"id\":\"12\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"system.process.cgroup.memory.mem.failures\",\"customLabel\":\"Failures\"}},{\"id\":\"10\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"system.process.cgroup.memory.kmem_tcp.usage.bytes\",\"customLabel\":\"TCP buffers\"}},{\"id\":\"11\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"system.process.cgroup.memory.stats.rss_huge.bytes\",\"customLabel\":\"Huge pages\"}},{\"id\":\"7\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"system.process.cgroup.memory.stats.rss.bytes\",\"customLabel\":\"Swap caches\"}},{\"id\":\"15\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"system.process.cgroup.memory.stats.swap.bytes\",\"customLabel\":\"Swap usage\"}},{\"id\":\"16\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"system.process.cgroup.blkio.total.ios\",\"customLabel\":\"Block I/O\"}}]}"
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "Container-Block-IO",
+    "_type": "visualization",
+    "_source": {
+      "description": "",
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"metricbeat-*\",\"query\":{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\",\"default_field\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      },
+      "title": "Container Block IO [Metricbeat System]",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "version": 1,
+      "visState": "{\"title\":\"Container Block IO [Metricbeat System]\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showMeticsAtAllLevels\":false,\"showPartialRows\":false,\"showTotal\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"system.process.cgroup.blkio.total.bytes\",\"customLabel\":\"Total\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"system.process.cgroup.blkio.total.ios\",\"customLabel\":\"I/O\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"system.process.cgroup.id\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Container ID\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"system.process.name\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Process name\"}}]}"
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "eb8277d0-c98c-11e7-9835-2f31fe08873b",
+    "_type": "visualization",
+    "_source": {
+      "description": "",
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"metricbeat-*\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      },
+      "title": "Service States [Metricbeat Windows]",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "version": 1,
+      "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"1\",\"params\":{\"aggregate\":\"concat\",\"customLabel\":\"Latest Report\",\"field\":\"@timestamp\",\"size\":1,\"sortField\":\"@timestamp\",\"sortOrder\":\"desc\"},\"schema\":\"metric\",\"type\":\"top_hits\"},{\"enabled\":true,\"id\":\"2\",\"params\":{\"customLabel\":\"Service\",\"field\":\"windows.service.display_name\",\"order\":\"asc\",\"orderBy\":\"_term\",\"size\":100},\"schema\":\"bucket\",\"type\":\"terms\"},{\"enabled\":true,\"id\":\"5\",\"params\":{\"customLabel\":\"Host\",\"field\":\"beat.name\",\"order\":\"desc\",\"orderBy\":\"_term\",\"size\":5},\"schema\":\"bucket\",\"type\":\"terms\"},{\"enabled\":true,\"id\":\"3\",\"params\":{\"customLabel\":\"State\",\"field\":\"windows.service.state\",\"order\":\"desc\",\"orderAgg\":{\"enabled\":true,\"id\":\"3-orderAgg\",\"params\":{\"field\":\"@timestamp\"},\"schema\":{\"aggFilter\":[\"!top_hits\",\"!percentiles\",\"!median\",\"!std_dev\",\"!derivative\",\"!moving_avg\",\"!serial_diff\",\"!cumulative_sum\",\"!avg_bucket\",\"!max_bucket\",\"!min_bucket\",\"!sum_bucket\"],\"deprecate\":false,\"editor\":false,\"group\":\"none\",\"hideCustomLabel\":true,\"max\":null,\"min\":0,\"name\":\"orderAgg\",\"params\":[],\"title\":\"Order Agg\"},\"type\":\"max\"},\"orderBy\":\"custom\",\"size\":1},\"schema\":\"bucket\",\"type\":\"terms\"},{\"enabled\":true,\"id\":\"4\",\"params\":{\"customLabel\":\"Startup Type\",\"field\":\"windows.service.start_type\",\"order\":\"desc\",\"orderAgg\":{\"enabled\":true,\"id\":\"4-orderAgg\",\"params\":{\"field\":\"@timestamp\"},\"schema\":{\"aggFilter\":[\"!top_hits\",\"!percentiles\",\"!median\",\"!std_dev\",\"!derivative\",\"!moving_avg\",\"!serial_diff\",\"!cumulative_sum\",\"!avg_bucket\",\"!max_bucket\",\"!min_bucket\",\"!sum_bucket\"],\"deprecate\":false,\"editor\":false,\"group\":\"none\",\"hideCustomLabel\":true,\"max\":null,\"min\":0,\"name\":\"orderAgg\",\"params\":[],\"title\":\"Order Agg\"},\"type\":\"max\"},\"orderBy\":\"custom\",\"size\":1},\"schema\":\"bucket\",\"type\":\"terms\"}],\"params\":{\"perPage\":10,\"showMeticsAtAllLevels\":false,\"showPartialRows\":false,\"showTotal\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"totalFunc\":\"sum\"},\"title\":\"Service States [Metricbeat Windows]\",\"type\":\"table\"}"
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "23a5fff0-c98e-11e7-9835-2f31fe08873b",
+    "_type": "visualization",
+    "_source": {
+      "description": "",
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      },
+      "savedSearchId": "b6b7ccc0-c98d-11e7-9835-2f31fe08873b",
+      "title": "Hosts [Metricbeat Windows]",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "version": 1,
+      "visState": "{\"title\":\"Hosts [Metricbeat Windows]\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"windows.service.id\",\"customLabel\":\"Total Services\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"beat.name\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}}]}"
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "830c45f0-c991-11e7-9835-2f31fe08873b",
+    "_type": "visualization",
+    "_source": {
+      "description": "",
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      },
+      "savedSearchId": "b6b7ccc0-c98d-11e7-9835-2f31fe08873b",
+      "title": "Startup States [Metricbeat Windows]",
+      "uiStateJSON": "{}",
+      "version": 1,
+      "visState": "{\"title\":\"Startup States [Metricbeat Windows]\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"windows.service.id\",\"customLabel\":\"Service Count\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"windows.service.start_type\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Startup Type\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"windows.service.state\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"State\"}}]}"
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "35f5ad60-c996-11e7-9835-2f31fe08873b",
+    "_type": "visualization",
+    "_source": {
+      "description": "",
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      },
+      "savedSearchId": "b6b7ccc0-c98d-11e7-9835-2f31fe08873b",
+      "title": "Unique Services [Metricbeat Windows]",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}}",
+      "version": 1,
+      "visState": "{\"title\":\"Unique Services [Metricbeat Windows]\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"gauge\",\"gauge\":{\"verticalSplit\":false,\"autoExtend\":false,\"percentageMode\":false,\"gaugeType\":\"Metric\",\"gaugeStyle\":\"Full\",\"backStyle\":\"Full\",\"orientation\":\"vertical\",\"colorSchema\":\"Green to Red\",\"gaugeColorMode\":\"None\",\"useRange\":false,\"colorsRange\":[{\"from\":0,\"to\":100}],\"invertColors\":false,\"labels\":{\"show\":false,\"color\":\"black\"},\"scale\":{\"show\":false,\"labels\":false,\"color\":\"#333\",\"width\":2},\"type\":\"simple\",\"style\":{\"fontSize\":60,\"bgColor\":false,\"labelColor\":false,\"subText\":\"\"}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"windows.service.id\",\"customLabel\":\"Services\"}}]}"
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "b92d8610-06f6-11e8-a3c5-45d92112cfc5",
+    "_type": "visualization",
+    "_source": {
+      "title": "日志实时统计-柱状图",
+      "visState": "{\"type\":\"timelion\",\"title\":\"日志实时统计-柱状图\",\"params\":{\"expression\":\".es(index=filebeat-*, q='logLevel: INFO', timefield='@timestamp', metric='count:msg').label('信息').bars().color(gray), .es(index=filebeat-*, q='logLevel: DEBUG', timefield='@timestamp', metric='count:msg').label('调试').lines(fill=1,width=1).color(blue), .es(index=filebeat-*, q='logLevel: ERROR', timefield='@timestamp', metric='count:msg').label('错误').bars().title('日志类别实时统计').color(red).legend(columns=3, position=nw)\",\"interval\":\"auto\"}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "0986cb20-0671-11e8-a3c5-45d92112cfc5",
+    "_type": "visualization",
+    "_source": {
+      "title": "日志实时统计",
+      "visState": "{\"type\":\"timelion\",\"title\":\"日志实时统计\",\"params\":{\"expression\":\".es(index=filebeat-*, q='logLevel: INFO', timefield='@timestamp', metric='count:msg').label('信息').lines(fill=1,width=0.5).color(gray), .es(index=filebeat-*, q='logLevel: DEBUG', timefield='@timestamp', metric='count:msg').label('调试').lines(fill=1,width=0.5).color(blue), .es(index=filebeat-*, q='logLevel: ERROR', timefield='@timestamp', metric='count:msg').label('错误').lines(fill=1,width=0.5).title('日志类别实时统计').color(red).legend(columns=3, position=nw)\",\"interval\":\"auto\"}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "e04b7250-0702-11e8-a3c5-45d92112cfc5",
+    "_type": "visualization",
+    "_source": {
+      "title": "主机级别计数",
+      "visState": "{\"title\":\"主机级别计数\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"},\"valueAxis\":null},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100,\"rotate\":0},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":true,\"truncate\":100},\"title\":{\"text\":\"计数\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"计数\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"计数\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"host.keyword\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"_term\",\"customLabel\":\"主机\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"logLevel.keyword\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"级别\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"02ccbe30-055d-11e8-8546-7d5b37f1c46c\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "9b1fb120-0700-11e8-a3c5-45d92112cfc5",
+    "_type": "visualization",
+    "_source": {
+      "title": "分主机日志级别占比",
+      "visState": "{\"title\":\"分主机日志级别占比\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"计数\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"host.keyword\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"_term\",\"customLabel\":\"主机\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"logLevel.keyword\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"_term\",\"customLabel\":\"日志级别\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"02ccbe30-055d-11e8-8546-7d5b37f1c46c\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "1aae9140-1b93-11e7-8ada-3df93aab833e",
+    "_type": "visualization",
+    "_source": {
+      "title": "出站流[资源系统]",
+      "visState": "{\"title\":\"出站流[资源系统]\",\"type\":\"metrics\",\"params\":{\"axis_formatter\":\"number\",\"axis_position\":\"left\",\"background_color_rules\":[{\"id\":\"0e346760-1b92-11e7-bec4-a5e9ec5cab8b\"}],\"filter\":\"-system.network.name:l*\",\"id\":\"0c761590-1b92-11e7-bec4-a5e9ec5cab8b\",\"index_pattern\":\"*\",\"interval\":\"auto\",\"series\":[{\"axis_position\":\"right\",\"chart_type\":\"line\",\"color\":\"#68BC00\",\"fill\":0.5,\"formatter\":\"bytes\",\"id\":\"0c761591-1b92-11e7-bec4-a5e9ec5cab8b\",\"label\":\"出站流量\",\"line_width\":1,\"metrics\":[{\"field\":\"system.network.out.bytes\",\"id\":\"0c761592-1b92-11e7-bec4-a5e9ec5cab8b\",\"type\":\"max\"},{\"field\":\"0c761592-1b92-11e7-bec4-a5e9ec5cab8b\",\"id\":\"1d659060-1b92-11e7-bec4-a5e9ec5cab8b\",\"type\":\"derivative\",\"unit\":\"1s\"},{\"field\":\"1d659060-1b92-11e7-bec4-a5e9ec5cab8b\",\"id\":\"f2074f70-1b92-11e7-a416-41f5ccdba2e6\",\"type\":\"positive_only\",\"unit\":\"\"},{\"id\":\"a1737470-2c55-11e7-a0ad-277ce466684d\",\"type\":\"series_agg\",\"function\":\"sum\"}],\"point_size\":1,\"seperate_axis\":0,\"split_mode\":\"terms\",\"stacked\":\"none\",\"value_template\":\"{{value}}/s\",\"terms_field\":\"system.network.name\"},{\"axis_position\":\"right\",\"chart_type\":\"line\",\"color\":\"#68BC00\",\"fill\":0.5,\"formatter\":\"bytes\",\"id\":\"37f70440-1b92-11e7-bec4-a5e9ec5cab8b\",\"label\":\"流量总计\",\"line_width\":1,\"metrics\":[{\"field\":\"system.network.out.bytes\",\"id\":\"37f72b50-1b92-11e7-bec4-a5e9ec5cab8b\",\"type\":\"max\"},{\"field\":\"37f72b50-1b92-11e7-bec4-a5e9ec5cab8b\",\"id\":\"37f72b51-1b92-11e7-bec4-a5e9ec5cab8b\",\"type\":\"derivative\",\"unit\":\"\"},{\"unit\":\"\",\"id\":\"f9da2dd0-1b92-11e7-a416-41f5ccdba2e6\",\"type\":\"positive_only\",\"field\":\"37f72b51-1b92-11e7-bec4-a5e9ec5cab8b\"},{\"sigma\":\"\",\"field\":\"f9da2dd0-1b92-11e7-a416-41f5ccdba2e6\",\"id\":\"3e63c2f0-1b92-11e7-bec4-a5e9ec5cab8b\",\"type\":\"series_agg\",\"function\":\"overall_sum\"}],\"point_size\":1,\"seperate_axis\":0,\"split_mode\":\"terms\",\"stacked\":\"none\",\"value_template\":\"{{value}}\",\"terms_field\":\"system.network.name\"}],\"show_legend\":1,\"time_field\":\"@timestamp\",\"type\":\"metric\",\"show_grid\":1},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "522ee670-1b92-11e7-bec4-a5e9ec5cab8b",
+    "_type": "visualization",
+    "_source": {
+      "title": "入站流 [资源系统]",
+      "visState": "{\"title\":\"入站流 [资源系统]\",\"type\":\"metrics\",\"params\":{\"axis_formatter\":\"number\",\"axis_position\":\"left\",\"background_color_rules\":[{\"id\":\"0e346760-1b92-11e7-bec4-a5e9ec5cab8b\"}],\"filter\":\"-system.network.name:l*\",\"id\":\"0c761590-1b92-11e7-bec4-a5e9ec5cab8b\",\"index_pattern\":\"*\",\"interval\":\"auto\",\"series\":[{\"axis_position\":\"right\",\"chart_type\":\"line\",\"color\":\"#68BC00\",\"fill\":0.5,\"formatter\":\"bytes\",\"id\":\"0c761591-1b92-11e7-bec4-a5e9ec5cab8b\",\"label\":\"入站流量\",\"line_width\":1,\"metrics\":[{\"field\":\"system.network.in.bytes\",\"id\":\"0c761592-1b92-11e7-bec4-a5e9ec5cab8b\",\"type\":\"max\"},{\"field\":\"0c761592-1b92-11e7-bec4-a5e9ec5cab8b\",\"id\":\"1d659060-1b92-11e7-bec4-a5e9ec5cab8b\",\"type\":\"derivative\",\"unit\":\"1s\"},{\"field\":\"1d659060-1b92-11e7-bec4-a5e9ec5cab8b\",\"id\":\"f2074f70-1b92-11e7-a416-41f5ccdba2e6\",\"type\":\"positive_only\",\"unit\":\"\"},{\"id\":\"c40e18f0-2c55-11e7-a0ad-277ce466684d\",\"type\":\"series_agg\",\"function\":\"sum\"}],\"point_size\":1,\"seperate_axis\":0,\"split_mode\":\"terms\",\"stacked\":\"none\",\"value_template\":\"{{value}}/s\",\"terms_field\":\"system.network.name\"},{\"axis_position\":\"right\",\"chart_type\":\"line\",\"color\":\"#68BC00\",\"fill\":0.5,\"formatter\":\"bytes\",\"id\":\"37f70440-1b92-11e7-bec4-a5e9ec5cab8b\",\"label\":\"流量总计\",\"line_width\":1,\"metrics\":[{\"field\":\"system.network.in.bytes\",\"id\":\"37f72b50-1b92-11e7-bec4-a5e9ec5cab8b\",\"type\":\"max\"},{\"field\":\"37f72b50-1b92-11e7-bec4-a5e9ec5cab8b\",\"id\":\"37f72b51-1b92-11e7-bec4-a5e9ec5cab8b\",\"type\":\"derivative\",\"unit\":\"\"},{\"unit\":\"\",\"id\":\"f9da2dd0-1b92-11e7-a416-41f5ccdba2e6\",\"type\":\"positive_only\",\"field\":\"37f72b51-1b92-11e7-bec4-a5e9ec5cab8b\"},{\"sigma\":\"\",\"field\":\"f9da2dd0-1b92-11e7-a416-41f5ccdba2e6\",\"id\":\"3e63c2f0-1b92-11e7-bec4-a5e9ec5cab8b\",\"type\":\"series_agg\",\"function\":\"overall_sum\"}],\"point_size\":1,\"seperate_axis\":0,\"split_mode\":\"terms\",\"stacked\":\"none\",\"value_template\":\"{{value}}\",\"terms_field\":\"system.network.name\"}],\"show_legend\":1,\"time_field\":\"@timestamp\",\"type\":\"metric\",\"show_grid\":1},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "c6f2ffd0-4d17-11e7-a196-69b9a7a020a9",
+    "_type": "visualization",
+    "_source": {
+      "title": "主机数[资源系统]",
+      "visState": "{\"title\":\"主机数[资源系统]\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"colorSchema\":\"Green to Red\",\"useRange\":false,\"colorsRange\":[{\"from\":0,\"to\":100}],\"invertColors\":false,\"labels\":{\"show\":false,\"color\":\"black\"},\"style\":{\"fontSize\":\"63\",\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\"},\"metricColorMode\":\"None\"}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"beat.name\",\"customLabel\":\"Number of hosts\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"metricbeat-*\",\"query\":{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true,\"default_field\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "System-Navigation",
+    "_type": "visualization",
+    "_source": {
+      "title": "系统使用导航[资源系统]",
+      "visState": "{\"title\":\"系统使用导航[资源系统]\",\"type\":\"markdown\",\"params\":{\"markdown\":\"[系统视图](#/dashboard/Metricbeat-system-overview)  | [主机视图](#/dashboard/79ffd6e0-faa0-11e6-947f-177f697178b8)\",\"fontSize\":11},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "3d65d450-a9c3-11e7-af20-67db8aecb295",
+    "_type": "visualization",
+    "_source": {
+      "title": "提示信息[资源系统]",
+      "visState": "{\"title\":\"提示信息[资源系统]\",\"type\":\"markdown\",\"params\":{\"fontSize\":12,\"markdown\":\"**提示:** 进入[系统试图](#/dashboard/Metricbeat-system-overview) 双击主机进入主机试图\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "7cdb1330-4d1a-11e7-a196-69b9a7a020a9",
+    "_type": "visualization",
+    "_source": {
+      "title": "主机CPU使用柱状图 [资源系统]",
+      "visState": "{\"title\":\"主机CPU使用柱状图 [资源系统]\",\"type\":\"heatmap\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"enableHover\":false,\"legendPosition\":\"right\",\"times\":[],\"colorsNumber\":4,\"colorSchema\":\"Greens\",\"setColorRange\":false,\"colorsRange\":[],\"invertColors\":false,\"percentageMode\":false,\"valueAxes\":[{\"show\":false,\"id\":\"ValueAxis-1\",\"type\":\"value\",\"scale\":{\"type\":\"linear\",\"defaultYExtents\":false},\"labels\":{\"show\":false,\"rotate\":0,\"color\":\"#555\"}}],\"type\":\"heatmap\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"system.cpu.user.pct\",\"customLabel\":\"CPU usage\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"5分钟展示\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"beat.name\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"主机\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0% - 0.45%\":\"rgb(247,252,245)\",\"0.45% - 0.9%\":\"rgb(199,233,192)\",\"0.9% - 1.35%\":\"rgb(116,196,118)\",\"1.35% - 1.8%\":\"rgb(35,139,69)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"metricbeat-*\",\"query\":{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true,\"default_field\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "fe064790-1b1f-11e7-bec4-a5e9ec5cab8b",
+    "_type": "visualization",
+    "_source": {
+      "title": "Top 10 主机内存使用 (实时) [资源系统]",
+      "visState": "{\"title\":\"Top 10 主机内存使用 (实时) [资源系统]\",\"type\":\"metrics\",\"params\":{\"id\":\"31e5afa0-1b1c-11e7-b09e-037021c4f8df\",\"type\":\"top_n\",\"series\":[{\"id\":\"31e5afa1-1b1c-11e7-b09e-037021c4f8df\",\"color\":\"#68BC00\",\"split_mode\":\"terms\",\"metrics\":[{\"id\":\"31e5afa2-1b1c-11e7-b09e-037021c4f8df\",\"type\":\"avg\",\"field\":\"system.memory.actual.used.pct\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"percent\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":0.5,\"stacked\":\"none\",\"terms_field\":\"beat.name\",\"terms_order_by\":\"31e5afa2-1b1c-11e7-b09e-037021c4f8df\",\"terms_size\":\"10\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"bar_color_rules\":[{\"value\":0,\"id\":\"33349dd0-1b1c-11e7-b09e-037021c4f8df\",\"bar_color\":\"rgba(104,188,0,1)\",\"opperator\":\"gte\"},{\"value\":0.6,\"id\":\"997dc440-1b1c-11e7-b09e-037021c4f8df\",\"bar_color\":\"rgba(254,146,0,1)\",\"opperator\":\"gte\"},{\"value\":0.85,\"id\":\"a10d7f20-1b1c-11e7-b09e-037021c4f8df\",\"bar_color\":\"rgba(211,49,21,1)\",\"opperator\":\"gte\"}],\"drilldown_url\":\"../app/kibana#/dashboard/79ffd6e0-faa0-11e6-947f-177f697178b8?_a=(query:(query_string:(analyze_wildcard:!t,query:'beat.name:\\\"{{key}}\\\"')))\",\"filter\":\"\",\"show_grid\":1},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "855899e0-1b1c-11e7-b09e-037021c4f8df",
+    "_type": "visualization",
+    "_source": {
+      "title": "Top 10 主机CPU占用 (实时) [资源系统]",
+      "visState": "{\"title\":\"Top 10 主机CPU占用 (实时) [资源系统]\",\"type\":\"metrics\",\"params\":{\"id\":\"31e5afa0-1b1c-11e7-b09e-037021c4f8df\",\"type\":\"top_n\",\"series\":[{\"id\":\"31e5afa1-1b1c-11e7-b09e-037021c4f8df\",\"color\":\"#68BC00\",\"split_mode\":\"terms\",\"metrics\":[{\"id\":\"31e5afa2-1b1c-11e7-b09e-037021c4f8df\",\"type\":\"avg\",\"field\":\"system.cpu.user.pct\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"percent\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":0.5,\"stacked\":\"none\",\"terms_field\":\"beat.name\",\"terms_order_by\":\"31e5afa2-1b1c-11e7-b09e-037021c4f8df\",\"terms_size\":\"10\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"bar_color_rules\":[{\"value\":0,\"id\":\"33349dd0-1b1c-11e7-b09e-037021c4f8df\",\"bar_color\":\"rgba(104,188,0,1)\",\"opperator\":\"gte\"},{\"value\":0.6,\"id\":\"997dc440-1b1c-11e7-b09e-037021c4f8df\",\"bar_color\":\"rgba(254,146,0,1)\",\"opperator\":\"gte\"},{\"value\":0.85,\"id\":\"a10d7f20-1b1c-11e7-b09e-037021c4f8df\",\"bar_color\":\"rgba(211,49,21,1)\",\"opperator\":\"gte\"}],\"drilldown_url\":\"../app/kibana#/dashboard/79ffd6e0-faa0-11e6-947f-177f697178b8?_a=(query:(query_string:(analyze_wildcard:!t,query:'beat.name:\\\"{{key}}\\\"')))\",\"filter\":\"\",\"show_grid\":1},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "19e123b0-4d5a-11e7-aee5-fdc812cc3bec",
+    "_type": "visualization",
+    "_source": {
+      "title": "虚拟内存使用 [资源系统]",
+      "visState": "{\"title\":\"虚拟内存使用 [资源系统]\",\"type\":\"metrics\",\"params\":{\"id\":\"cee2fd20-4d59-11e7-aee5-fdc812cc3bec\",\"type\":\"gauge\",\"series\":[{\"id\":\"cee2fd21-4d59-11e7-aee5-fdc812cc3bec\",\"color\":\"#68BC00\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"cee2fd22-4d59-11e7-aee5-fdc812cc3bec\",\"type\":\"avg\",\"field\":\"system.memory.swap.used.pct\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"percent\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":0.5,\"stacked\":\"none\",\"label\":\"使用率\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"gauge_color_rules\":[{\"value\":0,\"id\":\"d17c1e90-4d59-11e7-aee5-fdc812cc3bec\",\"gauge\":\"rgba(104,188,0,1)\",\"opperator\":\"gte\"},{\"value\":0.7,\"id\":\"fc1d3490-4d59-11e7-aee5-fdc812cc3bec\",\"gauge\":\"rgba(251,158,0,1)\",\"opperator\":\"gte\"},{\"value\":0.85,\"id\":\"0e204240-4d5a-11e7-aee5-fdc812cc3bec\",\"gauge\":\"rgba(211,49,21,1)\",\"opperator\":\"gte\"}],\"gauge_width\":10,\"gauge_inner_width\":10,\"gauge_style\":\"half\",\"gauge_max\":\"\",\"filter\":\"\",\"show_grid\":1,\"background_color_rules\":[{\"id\":\"d6561990-0738-11e8-92a1-9d4a6546641c\"}],\"bar_color_rules\":[{\"id\":\"dfec2bc0-0738-11e8-92a1-9d4a6546641c\"}]},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "d3166e80-1b91-11e7-bec4-a5e9ec5cab8b",
+    "_type": "visualization",
+    "_source": {
+      "title": "内存使用情况 [资源系统]",
+      "visState": "{\"title\":\"内存使用情况 [资源系统]\",\"type\":\"metrics\",\"params\":{\"id\":\"9f51b730-1b91-11e7-bec4-a5e9ec5cab8b\",\"type\":\"gauge\",\"series\":[{\"id\":\"9f51b731-1b91-11e7-bec4-a5e9ec5cab8b\",\"color\":\"#68BC00\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"9f51b732-1b91-11e7-bec4-a5e9ec5cab8b\",\"type\":\"avg\",\"field\":\"system.memory.actual.used.pct\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"percent\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":0.5,\"stacked\":\"none\",\"label\":\"已用\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"gauge_color_rules\":[{\"value\":0,\"id\":\"a0d522e0-1b91-11e7-bec4-a5e9ec5cab8b\",\"gauge\":\"rgba(104,188,0,1)\",\"opperator\":\"gte\"},{\"value\":0.7,\"id\":\"b45ad8f0-1b91-11e7-bec4-a5e9ec5cab8b\",\"gauge\":\"rgba(254,146,0,1)\",\"opperator\":\"gte\"},{\"value\":0.85,\"id\":\"c06e9550-1b91-11e7-bec4-a5e9ec5cab8b\",\"gauge\":\"rgba(211,49,21,1)\",\"opperator\":\"gte\"}],\"gauge_width\":10,\"gauge_inner_width\":10,\"gauge_style\":\"half\",\"gauge_max\":\"1\",\"filter\":\"\",\"show_grid\":1},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "d2e80340-4d5c-11e7-aa29-87a97a796de6",
+    "_type": "visualization",
+    "_source": {
+      "title": "内存使用与内存总量 [资源系统]",
+      "visState": "{\"title\":\"内存使用与内存总量 [资源系统]\",\"type\":\"metrics\",\"params\":{\"id\":\"6bc65720-4d5c-11e7-aa29-87a97a796de6\",\"type\":\"metric\",\"series\":[{\"id\":\"6bc65721-4d5c-11e7-aa29-87a97a796de6\",\"color\":\"#68BC00\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"6bc65722-4d5c-11e7-aa29-87a97a796de6\",\"type\":\"avg\",\"field\":\"system.memory.actual.used.bytes\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"bytes\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":0.5,\"stacked\":\"none\",\"label\":\"已用\"},{\"id\":\"b8fe6820-4d5c-11e7-aa29-87a97a796de6\",\"color\":\"#68BC00\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"b8fe6821-4d5c-11e7-aa29-87a97a796de6\",\"type\":\"avg\",\"field\":\"system.memory.total\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"bytes\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":0.5,\"stacked\":\"none\",\"label\":\"总共\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"background_color_rules\":[{\"id\":\"6f7618b0-4d5c-11e7-aa29-87a97a796de6\"}],\"show_grid\":1},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "26732e20-1b91-11e7-bec4-a5e9ec5cab8b",
+    "_type": "visualization",
+    "_source": {
+      "title": "负荷情况 [资源系统]",
+      "visState": "{\"title\":\"负荷情况 [资源系统]\",\"type\":\"metrics\",\"params\":{\"id\":\"fdcc6180-1b90-11e7-bec4-a5e9ec5cab8b\",\"type\":\"gauge\",\"series\":[{\"id\":\"fdcc6181-1b90-11e7-bec4-a5e9ec5cab8b\",\"color\":\"#68BC00\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"fdcc6182-1b90-11e7-bec4-a5e9ec5cab8b\",\"type\":\"avg\",\"field\":\"system.load.5\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":0.5,\"stacked\":\"none\",\"label\":\"5分钟负荷\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"background_color_rules\":[{\"id\":\"feefabd0-1b90-11e7-bec4-a5e9ec5cab8b\"}],\"gauge_color_rules\":[{\"id\":\"ffd94880-1b90-11e7-bec4-a5e9ec5cab8b\"}],\"gauge_width\":10,\"gauge_inner_width\":10,\"gauge_style\":\"half\",\"show_grid\":1},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "96976150-4d5d-11e7-aa29-87a97a796de6",
+    "_type": "visualization",
+    "_source": {
+      "title": "丢包情况[资源系统]",
+      "visState": "{\"title\":\"丢包情况[资源系统]\",\"type\":\"metrics\",\"params\":{\"id\":\"6984af10-4d5d-11e7-aa29-87a97a796de6\",\"type\":\"metric\",\"series\":[{\"id\":\"6984af11-4d5d-11e7-aa29-87a97a796de6\",\"color\":\"#68BC00\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"6984af12-4d5d-11e7-aa29-87a97a796de6\",\"type\":\"max\",\"field\":\"system.network.in.dropped\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":0.5,\"stacked\":\"none\",\"label\":\"入包丢失\"},{\"id\":\"ac2e6b30-4d5d-11e7-aa29-87a97a796de6\",\"color\":\"#68BC00\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"ac2e6b31-4d5d-11e7-aa29-87a97a796de6\",\"type\":\"max\",\"field\":\"system.network.out.dropped\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":0.5,\"stacked\":\"none\",\"label\":\"出包丢失\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"background_color_rules\":[{\"id\":\"6ba9b1f0-4d5d-11e7-aa29-87a97a796de6\"}],\"show_grid\":1},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "590a60f0-5d87-11e7-8884-1bb4c3b890e4",
+    "_type": "visualization",
+    "_source": {
+      "title": "进程数 [资源系统]",
+      "visState": "{\"title\":\"进程数 [资源系统]\",\"type\":\"metric\",\"params\":{\"addLegend\":false,\"addTooltip\":true,\"type\":\"metric\",\"metric\":{\"colorSchema\":\"Green to Red\",\"colorsRange\":[{\"from\":0,\"to\":100}],\"invertColors\":false,\"labels\":{\"color\":\"black\",\"show\":true},\"percentageMode\":false,\"style\":{\"bgColor\":false,\"bgFill\":\"#000\",\"fontSize\":60,\"labelColor\":false,\"subText\":\"\"},\"useRange\":false,\"metricColorMode\":\"None\"}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"system.process.pid\",\"customLabel\":\"进程\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"metricbeat-*\",\"query\":{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true,\"default_field\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "83e12df0-1b91-11e7-bec4-a5e9ec5cab8b",
+    "_type": "visualization",
+    "_source": {
+      "title": "CPU 占用 [资源系统]",
+      "visState": "{\"title\":\"CPU 占用 [资源系统]\",\"type\":\"metrics\",\"params\":{\"axis_formatter\":\"number\",\"axis_position\":\"left\",\"filter\":\"\",\"gauge_color_rules\":[{\"gauge\":\"rgba(104,188,0,1)\",\"id\":\"4ef2c3b0-1b91-11e7-bec4-a5e9ec5cab8b\",\"opperator\":\"gte\",\"value\":0},{\"gauge\":\"rgba(254,146,0,1)\",\"id\":\"e6561ae0-1b91-11e7-bec4-a5e9ec5cab8b\",\"opperator\":\"gte\",\"value\":0.7},{\"gauge\":\"rgba(211,49,21,1)\",\"id\":\"ec655040-1b91-11e7-bec4-a5e9ec5cab8b\",\"opperator\":\"gte\",\"value\":0.85}],\"gauge_inner_width\":10,\"gauge_max\":\"1\",\"gauge_style\":\"half\",\"gauge_width\":10,\"id\":\"4c9e2550-1b91-11e7-bec4-a5e9ec5cab8b\",\"index_pattern\":\"*\",\"interval\":\"auto\",\"series\":[{\"axis_position\":\"right\",\"chart_type\":\"line\",\"color\":\"#68BC00\",\"fill\":0.5,\"formatter\":\"percent\",\"id\":\"4c9e2551-1b91-11e7-bec4-a5e9ec5cab8b\",\"label\":\"CPU 占用\",\"line_width\":1,\"metrics\":[{\"field\":\"system.cpu.user.pct\",\"id\":\"4c9e2552-1b91-11e7-bec4-a5e9ec5cab8b\",\"type\":\"avg\"},{\"field\":\"system.cpu.system.pct\",\"id\":\"225c2140-5fd7-11e7-a63a-a937b7c1a7e1\",\"type\":\"avg\"},{\"field\":\"system.cpu.cores\",\"id\":\"837a30c0-5fd7-11e7-a63a-a937b7c1a7e1\",\"type\":\"avg\"},{\"script\":\"params.n > 0 ? (params.user+params.system)/params.n : null\",\"id\":\"587aa510-1b91-11e7-bec4-a5e9ec5cab8b\",\"type\":\"calculation\",\"variables\":[{\"field\":\"4c9e2552-1b91-11e7-bec4-a5e9ec5cab8b\",\"id\":\"5a19af10-1b91-11e7-bec4-a5e9ec5cab8b\",\"name\":\"user\"},{\"field\":\"225c2140-5fd7-11e7-a63a-a937b7c1a7e1\",\"id\":\"32b54f80-5fd7-11e7-a63a-a937b7c1a7e1\",\"name\":\"system\"},{\"field\":\"837a30c0-5fd7-11e7-a63a-a937b7c1a7e1\",\"id\":\"8ba6eef0-5fd7-11e7-a63a-a937b7c1a7e1\",\"name\":\"n\"}]}],\"point_size\":1,\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"none\"}],\"show_legend\":1,\"time_field\":\"@timestamp\",\"type\":\"gauge\",\"show_grid\":1},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "825fdb80-4d1d-11e7-b5f2-2b7c1895bf32",
+    "_type": "visualization",
+    "_source": {
+      "title": "磁盘使用 [资源系统]",
+      "visState": "{\"title\":\"磁盘使用 [资源系统]\",\"type\":\"metrics\",\"params\":{\"id\":\"4e4dc780-4d1d-11e7-b5f2-2b7c1895bf32\",\"type\":\"gauge\",\"series\":[{\"id\":\"4e4dee90-4d1d-11e7-b5f2-2b7c1895bf32\",\"color\":\"#68BC00\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"4e4dee91-4d1d-11e7-b5f2-2b7c1895bf32\",\"type\":\"avg\",\"field\":\"system.fsstat.total_size.used\"},{\"id\":\"57c96ee0-4d54-11e7-b5f2-2b7c1895bf32\",\"type\":\"avg\",\"field\":\"system.fsstat.total_size.total\"},{\"script\":\"params.total != null && params.total > 0 ? params.used/params.total : null\",\"id\":\"6304cca0-4d54-11e7-b5f2-2b7c1895bf32\",\"type\":\"calculation\",\"variables\":[{\"id\":\"6da10430-4d54-11e7-b5f2-2b7c1895bf32\",\"field\":\"4e4dee91-4d1d-11e7-b5f2-2b7c1895bf32\",\"name\":\"used\"},{\"id\":\"73b8c510-4d54-11e7-b5f2-2b7c1895bf32\",\"name\":\"total\",\"field\":\"57c96ee0-4d54-11e7-b5f2-2b7c1895bf32\"}]}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"percent\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":0.5,\"stacked\":\"none\",\"label\":\"已用\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"gauge_color_rules\":[{\"value\":0,\"id\":\"51921d10-4d1d-11e7-b5f2-2b7c1895bf32\",\"gauge\":\"rgba(104,188,0,1)\",\"opperator\":\"gte\"},{\"value\":0.7,\"id\":\"f26de750-4d54-11e7-b5f2-2b7c1895bf32\",\"gauge\":\"rgba(251,158,0,1)\",\"opperator\":\"gte\"},{\"value\":0.85,\"id\":\"fa31d190-4d54-11e7-b5f2-2b7c1895bf32\",\"gauge\":\"rgba(211,49,21,1)\",\"opperator\":\"gte\"}],\"gauge_width\":10,\"gauge_inner_width\":10,\"gauge_style\":\"half\",\"gauge_max\":\"1\",\"filter\":\"\",\"show_grid\":1},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "ab2d1e90-1b1a-11e7-b09e-037021c4f8df",
+    "_type": "visualization",
+    "_source": {
+      "title": "CPU使用详情 [资源系统]",
+      "visState": "{\"title\":\"CPU使用详情 [资源系统]\",\"type\":\"metrics\",\"params\":{\"id\":\"80a04950-1b19-11e7-b09e-037021c4f8df\",\"type\":\"timeseries\",\"series\":[{\"id\":\"80a04951-1b19-11e7-b09e-037021c4f8df\",\"color\":\"#68BC00\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"80a04952-1b19-11e7-b09e-037021c4f8df\",\"type\":\"avg\",\"field\":\"system.cpu.user.pct\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"percent\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":\"0\",\"fill\":\"1\",\"stacked\":\"stacked\",\"label\":\"user\"},{\"id\":\"993acf30-1b19-11e7-b09e-037021c4f8df\",\"color\":\"rgba(211,49,21,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"993acf31-1b19-11e7-b09e-037021c4f8df\",\"type\":\"avg\",\"field\":\"system.cpu.system.pct\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"percent\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":\"0\",\"fill\":\"1\",\"stacked\":\"stacked\",\"label\":\"system\"},{\"id\":\"65ca35e0-1b1a-11e7-b09e-037021c4f8df\",\"color\":\"rgba(123,100,255,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"65ca5cf0-1b1a-11e7-b09e-037021c4f8df\",\"type\":\"avg\",\"field\":\"system.cpu.nice.pct\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"percent\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":\"0\",\"fill\":\"1\",\"stacked\":\"stacked\",\"label\":\"nice\"},{\"id\":\"741b5f20-1b1a-11e7-b09e-037021c4f8df\",\"color\":\"rgba(226,115,0,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"741b5f21-1b1a-11e7-b09e-037021c4f8df\",\"type\":\"avg\",\"field\":\"system.cpu.irq.pct\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"percent\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":\"0\",\"fill\":\"1\",\"stacked\":\"stacked\",\"label\":\"irq\"},{\"id\":\"2efc5d40-1b1a-11e7-b09e-037021c4f8df\",\"color\":\"rgba(176,188,0,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"2efc5d41-1b1a-11e7-b09e-037021c4f8df\",\"type\":\"avg\",\"field\":\"system.cpu.softirq.pct\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"percent\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":\"0\",\"fill\":\"1\",\"stacked\":\"stacked\",\"label\":\"softirq\"},{\"id\":\"ae644a30-1b19-11e7-b09e-037021c4f8df\",\"color\":\"rgba(15,20,25,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"ae644a31-1b19-11e7-b09e-037021c4f8df\",\"type\":\"avg\",\"field\":\"system.cpu.iowait.pct\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"percent\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":\"0\",\"fill\":\"1\",\"stacked\":\"stacked\",\"label\":\"iowait\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "4e4bb1e0-1b1b-11e7-b09e-037021c4f8df",
+    "_type": "visualization",
+    "_source": {
+      "title": "磁盘读写 (Bytes) [资源系统]",
+      "visState": "{\"title\":\"磁盘读写 (Bytes) [资源系统]\",\"type\":\"metrics\",\"params\":{\"id\":\"d3c67db0-1b1a-11e7-b09e-037021c4f8df\",\"type\":\"timeseries\",\"series\":[{\"id\":\"d3c67db1-1b1a-11e7-b09e-037021c4f8df\",\"color\":\"rgba(22,165,165,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"d3c67db2-1b1a-11e7-b09e-037021c4f8df\",\"type\":\"max\",\"field\":\"system.diskio.read.bytes\"},{\"unit\":\"1s\",\"id\":\"f55b9910-1b1a-11e7-b09e-037021c4f8df\",\"type\":\"derivative\",\"field\":\"d3c67db2-1b1a-11e7-b09e-037021c4f8df\"},{\"unit\":\"\",\"id\":\"dcbbb100-1b93-11e7-8ada-3df93aab833e\",\"type\":\"positive_only\",\"field\":\"f55b9910-1b1a-11e7-b09e-037021c4f8df\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"bytes\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":\"0\",\"fill\":\"1\",\"stacked\":\"none\",\"label\":\"读\",\"value_template\":\"{{value}}/s\"},{\"id\":\"144124d0-1b1b-11e7-b09e-037021c4f8df\",\"color\":\"rgba(251,158,0,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"144124d1-1b1b-11e7-b09e-037021c4f8df\",\"type\":\"max\",\"field\":\"system.diskio.write.bytes\"},{\"unit\":\"1s\",\"id\":\"144124d2-1b1b-11e7-b09e-037021c4f8df\",\"type\":\"derivative\",\"field\":\"144124d1-1b1b-11e7-b09e-037021c4f8df\"},{\"script\":\"params.rate > 0 ? params.rate * -1 : 0\",\"id\":\"144124d4-1b1b-11e7-b09e-037021c4f8df\",\"type\":\"calculation\",\"variables\":[{\"id\":\"144124d3-1b1b-11e7-b09e-037021c4f8df\",\"name\":\"rate\",\"field\":\"144124d2-1b1b-11e7-b09e-037021c4f8df\"}]}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"bytes\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":\"0\",\"fill\":\"1\",\"stacked\":\"none\",\"label\":\"写\",\"value_template\":\"{{value}}/s\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"filter\":\"\",\"show_grid\":1},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "bfa5e400-1b16-11e7-b09e-037021c4f8df",
+    "_type": "visualization",
+    "_source": {
+      "title": "内存使用详情 [资源系统]",
+      "visState": "{\"title\":\"内存使用详情 [资源系统]\",\"type\":\"metrics\",\"params\":{\"id\":\"32f46f40-1b16-11e7-b09e-037021c4f8df\",\"type\":\"timeseries\",\"series\":[{\"id\":\"4ff61fd0-1b16-11e7-b09e-037021c4f8df\",\"color\":\"rgba(211,49,21,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"4ff61fd1-1b16-11e7-b09e-037021c4f8df\",\"type\":\"avg\",\"field\":\"system.memory.actual.used.bytes\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"bytes\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":\"0\",\"fill\":\"1\",\"stacked\":\"stacked\",\"label\":\"Used\"},{\"id\":\"753a6080-1b16-11e7-b09e-037021c4f8df\",\"color\":\"rgba(0,156,224,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"753a6081-1b16-11e7-b09e-037021c4f8df\",\"type\":\"avg\",\"field\":\"system.memory.actual.used.bytes\"},{\"id\":\"7c9d3f00-1b16-11e7-b09e-037021c4f8df\",\"type\":\"avg\",\"field\":\"system.memory.used.bytes\"},{\"script\":\"params.actual != null && params.used != null ? params.used - params.actual : null\",\"id\":\"869cc160-1b16-11e7-b09e-037021c4f8df\",\"type\":\"calculation\",\"variables\":[{\"id\":\"890f9620-1b16-11e7-b09e-037021c4f8df\",\"name\":\"actual\",\"field\":\"753a6081-1b16-11e7-b09e-037021c4f8df\"},{\"id\":\"8f3ab7f0-1b16-11e7-b09e-037021c4f8df\",\"name\":\"used\",\"field\":\"7c9d3f00-1b16-11e7-b09e-037021c4f8df\"}]}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"bytes\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":\"0\",\"fill\":\"1\",\"stacked\":\"stacked\",\"label\":\"Cache\"},{\"id\":\"32f46f41-1b16-11e7-b09e-037021c4f8df\",\"color\":\"#68BC00\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"32f46f42-1b16-11e7-b09e-037021c4f8df\",\"type\":\"avg\",\"field\":\"system.memory.free\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"bytes\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":\"0\",\"fill\":\"1\",\"stacked\":\"stacked\",\"label\":\"Free\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "34f97ee0-1b96-11e7-8ada-3df93aab833e",
+    "_type": "visualization",
+    "_source": {
+      "title": "磁盘占用[资源系统]",
+      "visState": "{\"title\":\"磁盘占用[资源系统]\",\"type\":\"metrics\",\"params\":{\"axis_formatter\":\"number\",\"axis_position\":\"left\",\"bar_color_rules\":[{\"bar_color\":\"rgba(104,188,0,1)\",\"id\":\"bf525310-1b95-11e7-8ada-3df93aab833e\",\"opperator\":\"gte\",\"value\":0},{\"bar_color\":\"rgba(254,146,0,1)\",\"id\":\"125fc4c0-1b96-11e7-8ada-3df93aab833e\",\"opperator\":\"gte\",\"value\":0.7},{\"bar_color\":\"rgba(211,49,21,1)\",\"id\":\"1a5c7240-1b96-11e7-8ada-3df93aab833e\",\"opperator\":\"gte\",\"value\":0.85}],\"drilldown_url\":\"\",\"filter\":\"-system.filesystem.mount_point:\\\\/run* AND -system.filesystem.mount_point:\\\\/sys* AND -system.filesystem.mount_point:\\\\/dev* AND -system.filesystem.mount_point:\\\\/proc* AND -system.filesystem.mount_point:\\\\/var* AND -system.filesystem.mount_point:\\\\/boot\",\"id\":\"9f7e48a0-1b95-11e7-8ada-3df93aab833e\",\"index_pattern\":\"*\",\"interval\":\"auto\",\"series\":[{\"axis_position\":\"right\",\"chart_type\":\"line\",\"color\":\"#68BC00\",\"fill\":0.5,\"formatter\":\"percent\",\"id\":\"9f7e48a1-1b95-11e7-8ada-3df93aab833e\",\"line_width\":1,\"metrics\":[{\"field\":\"system.filesystem.used.pct\",\"id\":\"9f7e48a2-1b95-11e7-8ada-3df93aab833e\",\"type\":\"avg\"}],\"point_size\":1,\"seperate_axis\":0,\"split_mode\":\"terms\",\"stacked\":\"none\",\"terms_field\":\"system.filesystem.mount_point\"}],\"show_legend\":1,\"time_field\":\"@timestamp\",\"type\":\"top_n\",\"show_grid\":1},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "4d546850-1b15-11e7-b09e-037021c4f8df",
+    "_type": "visualization",
+    "_source": {
+      "title": "系统负荷 [资源系统]",
+      "visState": "{\"title\":\"系统负荷 [资源系统]\",\"type\":\"metrics\",\"params\":{\"id\":\"f6264ad0-1b14-11e7-b09e-037021c4f8df\",\"type\":\"timeseries\",\"series\":[{\"id\":\"f62671e0-1b14-11e7-b09e-037021c4f8df\",\"color\":\"rgba(115,216,255,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"f62671e1-1b14-11e7-b09e-037021c4f8df\",\"type\":\"avg\",\"field\":\"system.load.1\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":\"3\",\"point_size\":1,\"fill\":\"0\",\"stacked\":\"none\",\"label\":\"1分钟\"},{\"id\":\"1c324850-1b15-11e7-b09e-037021c4f8df\",\"color\":\"rgba(0,156,224,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"1c324851-1b15-11e7-b09e-037021c4f8df\",\"type\":\"avg\",\"field\":\"system.load.5\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":\"3\",\"point_size\":\"0\",\"fill\":\"0\",\"stacked\":\"none\",\"label\":\"5分钟\"},{\"id\":\"3287e740-1b15-11e7-b09e-037021c4f8df\",\"color\":\"rgba(0,98,177,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"32880e50-1b15-11e7-b09e-037021c4f8df\",\"type\":\"avg\",\"field\":\"system.load.15\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":\"3\",\"point_size\":\"0\",\"fill\":\"0\",\"stacked\":\"none\",\"label\":\"15分钟\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "089b85d0-1b16-11e7-b09e-037021c4f8df",
+    "_type": "visualization",
+    "_source": {
+      "title": "网络使用 (字节) [资源系统]",
+      "visState": "{\"title\":\"网络使用 (字节) [资源系统]\",\"type\":\"metrics\",\"params\":{\"id\":\"da1046f0-faa0-11e6-86b1-cd7735ff7e23\",\"type\":\"timeseries\",\"series\":[{\"id\":\"da1046f1-faa0-11e6-86b1-cd7735ff7e23\",\"color\":\"rgba(0,156,224,1)\",\"split_mode\":\"terms\",\"metrics\":[{\"id\":\"da1046f2-faa0-11e6-86b1-cd7735ff7e23\",\"type\":\"max\",\"field\":\"system.network.in.bytes\"},{\"unit\":\"1s\",\"id\":\"f41f9280-faa0-11e6-86b1-cd7735ff7e23\",\"type\":\"derivative\",\"field\":\"da1046f2-faa0-11e6-86b1-cd7735ff7e23\"},{\"unit\":\"\",\"id\":\"a87398e0-1b93-11e7-8ada-3df93aab833e\",\"type\":\"positive_only\",\"field\":\"f41f9280-faa0-11e6-86b1-cd7735ff7e23\"},{\"id\":\"2d533df0-2c2d-11e7-be71-3162da85303f\",\"type\":\"series_agg\",\"function\":\"sum\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"bytes\",\"chart_type\":\"line\",\"line_width\":\"0\",\"point_size\":\"0\",\"fill\":\"1\",\"stacked\":\"none\",\"label\":\"入站流\",\"value_template\":\"{{value}}/s\",\"terms_field\":\"system.network.name\"},{\"id\":\"fbbd5720-faa0-11e6-86b1-cd7735ff7e23\",\"color\":\"rgba(250,40,255,1)\",\"split_mode\":\"terms\",\"metrics\":[{\"id\":\"fbbd7e30-faa0-11e6-86b1-cd7735ff7e23\",\"type\":\"max\",\"field\":\"system.network.out.bytes\"},{\"unit\":\"1s\",\"id\":\"fbbd7e31-faa0-11e6-86b1-cd7735ff7e23\",\"type\":\"derivative\",\"field\":\"fbbd7e30-faa0-11e6-86b1-cd7735ff7e23\"},{\"script\":\"params.rate != null && params.rate > 0 ? params.rate * -1 : null\",\"id\":\"17e597a0-faa1-11e6-86b1-cd7735ff7e23\",\"type\":\"calculation\",\"variables\":[{\"id\":\"1940bad0-faa1-11e6-86b1-cd7735ff7e23\",\"name\":\"rate\",\"field\":\"fbbd7e31-faa0-11e6-86b1-cd7735ff7e23\"}]},{\"id\":\"533da9b0-2c2d-11e7-be71-3162da85303f\",\"type\":\"series_agg\",\"function\":\"sum\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"bytes\",\"chart_type\":\"line\",\"line_width\":\"0\",\"point_size\":\"0\",\"fill\":\"1\",\"stacked\":\"none\",\"label\":\"出站流\",\"value_template\":\"{{value}}/s\",\"terms_field\":\"system.network.name\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"filter\":\"-system.network.name:l*\",\"show_grid\":1},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "6b7b9a40-faa1-11e6-86b1-cd7735ff7e23",
+    "_type": "visualization",
+    "_source": {
+      "title": "网络使用 (包) [资源系统]",
+      "visState": "{\"title\":\"网络使用 (包) [资源系统]\",\"type\":\"metrics\",\"params\":{\"id\":\"da1046f0-faa0-11e6-86b1-cd7735ff7e23\",\"type\":\"timeseries\",\"series\":[{\"id\":\"da1046f1-faa0-11e6-86b1-cd7735ff7e23\",\"color\":\"rgba(0,156,224,1)\",\"split_mode\":\"terms\",\"metrics\":[{\"id\":\"da1046f2-faa0-11e6-86b1-cd7735ff7e23\",\"type\":\"max\",\"field\":\"system.network.in.packets\"},{\"unit\":\"1s\",\"id\":\"f41f9280-faa0-11e6-86b1-cd7735ff7e23\",\"type\":\"derivative\",\"field\":\"da1046f2-faa0-11e6-86b1-cd7735ff7e23\"},{\"unit\":\"\",\"id\":\"c0da3d80-1b93-11e7-8ada-3df93aab833e\",\"type\":\"positive_only\",\"field\":\"f41f9280-faa0-11e6-86b1-cd7735ff7e23\"},{\"id\":\"ecaad010-2c2c-11e7-be71-3162da85303f\",\"type\":\"series_agg\",\"function\":\"sum\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"0.[00]a\",\"chart_type\":\"line\",\"line_width\":\"0\",\"point_size\":\"0\",\"fill\":\"1\",\"stacked\":\"none\",\"label\":\"入站流\",\"value_template\":\"{{value}}/s\",\"terms_field\":\"system.network.name\"},{\"id\":\"fbbd5720-faa0-11e6-86b1-cd7735ff7e23\",\"color\":\"rgba(250,40,255,1)\",\"split_mode\":\"terms\",\"metrics\":[{\"id\":\"fbbd7e30-faa0-11e6-86b1-cd7735ff7e23\",\"type\":\"max\",\"field\":\"system.network.out.packets\"},{\"unit\":\"1s\",\"id\":\"fbbd7e31-faa0-11e6-86b1-cd7735ff7e23\",\"type\":\"derivative\",\"field\":\"fbbd7e30-faa0-11e6-86b1-cd7735ff7e23\"},{\"script\":\"params.rate != null && params.rate > 0 ? params.rate * -1 : null\",\"id\":\"17e597a0-faa1-11e6-86b1-cd7735ff7e23\",\"type\":\"calculation\",\"variables\":[{\"id\":\"1940bad0-faa1-11e6-86b1-cd7735ff7e23\",\"name\":\"rate\",\"field\":\"fbbd7e31-faa0-11e6-86b1-cd7735ff7e23\"}]},{\"id\":\"fe5fbdc0-2c2c-11e7-be71-3162da85303f\",\"type\":\"series_agg\",\"function\":\"sum\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"0.[00]a\",\"chart_type\":\"line\",\"line_width\":\"0\",\"point_size\":\"0\",\"fill\":\"1\",\"stacked\":\"none\",\"label\":\"出站流\",\"value_template\":\"{{value}}/s\",\"terms_field\":\"system.network.name\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"filter\":\"-system.network.name:l*\",\"show_grid\":1},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "2e224660-1b19-11e7-b09e-037021c4f8df",
+    "_type": "visualization",
+    "_source": {
+      "title": "进程内存占用 [资源系统]",
+      "visState": "{\"title\":\"进程内存占用 [资源系统]\",\"type\":\"metrics\",\"params\":{\"id\":\"edfceb30-1b18-11e7-b09e-037021c4f8df\",\"type\":\"top_n\",\"series\":[{\"id\":\"edfceb31-1b18-11e7-b09e-037021c4f8df\",\"color\":\"#68BC00\",\"split_mode\":\"terms\",\"metrics\":[{\"id\":\"edfceb32-1b18-11e7-b09e-037021c4f8df\",\"type\":\"avg\",\"field\":\"system.process.memory.rss.pct\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"percent\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":0.5,\"stacked\":\"none\",\"terms_field\":\"system.process.name\",\"terms_order_by\":\"edfceb32-1b18-11e7-b09e-037021c4f8df\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"bar_color_rules\":[{\"value\":0,\"id\":\"efb9b660-1b18-11e7-b09e-037021c4f8df\",\"bar_color\":\"rgba(104,188,0,1)\",\"opperator\":\"gte\"},{\"value\":0.7,\"id\":\"17fcb820-1b19-11e7-b09e-037021c4f8df\",\"bar_color\":\"rgba(254,146,0,1)\",\"opperator\":\"gte\"},{\"value\":0.85,\"id\":\"1dd61070-1b19-11e7-b09e-037021c4f8df\",\"bar_color\":\"rgba(211,49,21,1)\",\"opperator\":\"gte\"}],\"drilldown_url\":\"\",\"filter\":\"\",\"show_grid\":1},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "e0f001c0-1b18-11e7-b09e-037021c4f8df",
+    "_type": "visualization",
+    "_source": {
+      "title": "进程CPU使用 [资源系统]",
+      "visState": "{\"title\":\"进程CPU使用 [资源系统]\",\"type\":\"metrics\",\"params\":{\"id\":\"5f5b8d50-1b18-11e7-b09e-037021c4f8df\",\"type\":\"top_n\",\"series\":[{\"id\":\"5f5b8d51-1b18-11e7-b09e-037021c4f8df\",\"color\":\"#68BC00\",\"split_mode\":\"terms\",\"metrics\":[{\"id\":\"5f5b8d52-1b18-11e7-b09e-037021c4f8df\",\"type\":\"avg\",\"field\":\"system.process.cpu.total.pct\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"percent\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":0.5,\"stacked\":\"none\",\"terms_field\":\"system.process.name\",\"terms_order_by\":\"5f5b8d52-1b18-11e7-b09e-037021c4f8df\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"bar_color_rules\":[{\"value\":0,\"id\":\"60e11be0-1b18-11e7-b09e-037021c4f8df\",\"bar_color\":\"rgba(104,188,0,1)\",\"opperator\":\"gte\"}],\"drilldown_url\":\"\",\"filter\":\"\",\"show_grid\":1},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "99381c80-4d60-11e7-9a4c-ed99bbcaa42b",
+    "_type": "visualization",
+    "_source": {
+      "title": "接口入站流 [资源系统]",
+      "visState": "{\"title\":\"接口入站流 [资源系统]\",\"type\":\"metrics\",\"params\":{\"id\":\"42ceae90-4d60-11e7-9a4c-ed99bbcaa42b\",\"type\":\"top_n\",\"series\":[{\"id\":\"42ced5a0-4d60-11e7-9a4c-ed99bbcaa42b\",\"color\":\"#68BC00\",\"split_mode\":\"terms\",\"metrics\":[{\"id\":\"42ced5a1-4d60-11e7-9a4c-ed99bbcaa42b\",\"type\":\"avg\",\"field\":\"system.network.in.bytes\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"bytes\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":0.5,\"stacked\":\"none\",\"label\":\"Interfaces by Incoming traffic\",\"terms_field\":\"system.network.name\",\"terms_order_by\":\"42ced5a1-4d60-11e7-9a4c-ed99bbcaa42b\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"bar_color_rules\":[{\"id\":\"44596d40-4d60-11e7-9a4c-ed99bbcaa42b\"}],\"show_grid\":1},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "c5e3cf90-4d60-11e7-9a4c-ed99bbcaa42b",
+    "_type": "visualization",
+    "_source": {
+      "title": "接口出站流 [资源系统]",
+      "visState": "{\"title\":\"接口出站流 [资源系统]\",\"type\":\"metrics\",\"params\":{\"id\":\"9cdba910-4d60-11e7-9a4c-ed99bbcaa42b\",\"type\":\"top_n\",\"series\":[{\"id\":\"9cdba911-4d60-11e7-9a4c-ed99bbcaa42b\",\"color\":\"#68BC00\",\"split_mode\":\"terms\",\"metrics\":[{\"id\":\"9cdba912-4d60-11e7-9a4c-ed99bbcaa42b\",\"type\":\"avg\",\"field\":\"system.network.out.bytes\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"bytes\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":0.5,\"stacked\":\"none\",\"terms_field\":\"system.network.name\",\"terms_order_by\":\"9cdba912-4d60-11e7-9a4c-ed99bbcaa42b\",\"label\":\"Interfaces by Outgoing traffic\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"bar_color_rules\":[{\"id\":\"9db20be0-4d60-11e7-9a4c-ed99bbcaa42b\"}],\"show_grid\":1},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  }
+]
